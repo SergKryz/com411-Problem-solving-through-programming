@@ -1,0 +1,1 @@
+#Program whihc dispalys a menu and allow the user to choose between options of a nice message, calculate areas of ractangle or triangle or dispalaya times table for a number 
