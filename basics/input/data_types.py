@@ -12,6 +12,6 @@ weight = int(input())
 
 x = weight/height**2
 
-print("{} you are {} and your bmi is {:.2f} ." .format(name,years,x))
+print("{} you are {} and your bmi is {:.0f} ." .format(name,years,x))
 
 
