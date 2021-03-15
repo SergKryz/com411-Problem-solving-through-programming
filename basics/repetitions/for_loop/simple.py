@@ -9,4 +9,3 @@ for count in range(mount):
  print("   / ^     \_")
  print(" _/ ^ ^ ^    \ ")
  print("/ ^ ^         \ ")
-
