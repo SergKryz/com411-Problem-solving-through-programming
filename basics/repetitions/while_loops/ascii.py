@@ -5,7 +5,7 @@ bars_charged=0 #created variable to count bars charged
 
 while(bars_charged<barstoc): #condition
 
-  bars_charged = bars_charged + 1
+  bars_charged = bars_charged + 1 # same thing as bars_charged += 1
 
 
   print("Charging:" , "\u26a1" * bars_charged)
