@@ -1,5 +1,4 @@
 
-
 print("How many numbers should I sum up?")
 
 number=int(input()) #asking user for a number
@@ -22,7 +21,3 @@ while (kint<=number): #condition
 
 
 print ("The answer is ", total) #printing answer - sum of number entered
-
-
-
-
