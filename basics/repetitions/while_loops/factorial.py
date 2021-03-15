@@ -13,8 +13,3 @@ while (contr<number):
   
 print("The factorial is" , total)
   
-
-
-
-
-
