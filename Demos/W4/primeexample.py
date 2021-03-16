@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 #https://www.abc.net.au/news/science/2018-01-20/how-prime-numbers-rsa-encryption-works/9338876#:~:text=The%20reason%20prime%20numbers%20are,17%2C%20or%20187%20and%201.
@@ -78,7 +77,3 @@ print(encrypt())
 # else:
 #   print("The number is not prime!")
 # '''
-
-
-=======
->>>>>>> 4e04c9710904fdb3e68e235dcc5e0442e0d970fa
