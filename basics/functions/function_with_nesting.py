@@ -8,7 +8,3 @@ def identify(): #function
     print("\nWe will be fine!")  
 
 identify()#call
-
-
-
-
