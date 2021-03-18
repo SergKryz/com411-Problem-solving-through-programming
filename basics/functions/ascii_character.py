@@ -1,7 +1,5 @@
 
 
-
-
 print("Program started !") #program begins
 
 print("Please enter the ASCII code:") # Asking for user input
