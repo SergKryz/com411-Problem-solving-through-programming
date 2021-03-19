@@ -90,4 +90,3 @@ print (all_students)
 
 get_fruits()
 
-
