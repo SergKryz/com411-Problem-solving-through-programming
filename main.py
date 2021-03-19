@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def getmefruits(): 
   fruits=[]
   print("How many fruits would you like to enter?")
@@ -28,6 +29,37 @@ def get_fruits():
 print(f"Negative index: {fruits[-2:0:-1]}")
 
 get_fruits() #calling function
+=======
+def cross_bridge(distance):
+  
+
+
+  # while (distance>0):
+  #   distance-=1
+  #   print("Crossed step")
+  
+
+
+
+  # if (distance<5):
+  #  print("We must keep going!")
+  # else:
+  #   print("Bridge is collapsing!")
+
+  for steps in range(distance):
+
+    print("Crossed step")
+
+  if (distance<5):
+     print("We must keep going!")
+  else:
+     print("Bridge is collapsing!")
+
+
+cross_bridge(3)
+cross_bridge(6)    
+
+>>>>>>> 9e8002103f7c716533b4c2dbaead1006c2c4d69d
 
 
 person = ("Piotr", 67 , False)
