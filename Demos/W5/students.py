@@ -43,5 +43,3 @@ def avg_mark(sarasas):
   return total/len(sarasas)
 
 print(avg_mark(all_stds()))
-
-
