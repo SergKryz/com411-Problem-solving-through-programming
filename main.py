@@ -1,37 +1,24 @@
-#creating a set
+#dating application
 
+def interest():
+  print("Enter your interests, one after another, and enter \"stop\" when finished.")
+  set1 = set()
+  activity = ""
+  while(activity != "stop"):
+    activity = input()
+    set1.add(activity)
+  return set1
 
-colours =set()
-print(type(colours))
+def tinderTheSecond():
+  print("First person:")
+  P1set = interest()
+  print("Second person:")
+  P2set = interest()
+  common = P1set.intersection(P2set)
+  if len(common) > 4:
+    print(f"We have a match! You have {len.(common)} interests in common.")
+  else:
+    print(f":( Must be barbers closed...:(  You only have {len.(common)}")
 
+tinderTheSecond()
 
-#initialise non-empty set
-
-colors ={ "blue", "red", "yellow"}
-print(type(colors))
-#print(colors)
-
-#adding elements to set
-
-colors.add("purple")
-colours.add(" red")
-
-# print(colours)
-# print(colors)#
-
-colours.add("black" )
-colours.add("green" )
-
-print(colours)
-print(colors)
-
-#Union joining two sorted
-
-set1= colours.union(colors)
-print(set1)
-
-
-#Intersection - finding common elements
-
-set2 = colors.intersection(colours)
-print(set2)
