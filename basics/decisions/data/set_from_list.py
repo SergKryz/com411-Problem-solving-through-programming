@@ -1,4 +1,3 @@
-
 def observed():
    observations=[]
    for i in range(7):
@@ -22,12 +21,3 @@ def run():
   print(set_of_tuples)
 
 run()
-
-
-
-   
-   
-
-
-
-
