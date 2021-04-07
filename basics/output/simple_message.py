@@ -1,1 +1,2 @@
-print ("system failure imminent! ")
+def run():
+  print ("\nsystem failure imminent! ")
