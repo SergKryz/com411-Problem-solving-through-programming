@@ -2,7 +2,7 @@ def display_ladder(steps):
   for step in range (steps):
     print("| |\n***")
   
-  print("| |")#bootom of a ladder
+  print("| |")#bottom of a ladder
 
 
 def create_ladder():
