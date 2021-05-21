@@ -15,6 +15,10 @@ def run():
   y=data
   axes[0].plot(x,y)
   axes[1].bar(x,y)
+  axes[0].set_xlabel("Days")
+  axes[0].set_ylabel("Temperature")
+  axes[1].set_xlabel("Days")
+  axes[1].set_ylabel("Temperature")
 
   plt.show()
 

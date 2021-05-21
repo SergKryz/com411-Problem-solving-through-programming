@@ -5,7 +5,7 @@ def search():
     section_name=""
     for line in file:
       if line.startswith("Section"):
-        section_name = line.spli(":")[1]
+        section_name = line.split(":")[1]
       elif (section_name in data):
         data[section_name].append(line.strip())  
       else:
